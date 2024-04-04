@@ -1,0 +1,19 @@
+#eg1{
+    height:864px;
+    width:1440px
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+     /* This ensures the button is vertically centered */
+  }
+
+  .rounded-img {
+    border-radius: 50%;
+    width: 80px; /* Adjust size as needed */
+    height: 80px; /* Adjust size as needed */
+    padding:15px;
+  }
