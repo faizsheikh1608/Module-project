@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-white p-1">
+    <nav class="navbar navbar-expand-lg bg-white p-1 ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="https://acciojob.com/_next/static/media/full_logo.1a83ae71.svg?imwidth=256" alt="Acciojob"
@@ -53,47 +53,58 @@
 
                     <button class="border border-primary btn text-primary ms-3 me-5" type="submit">Login</button>
                 </form>
+                
             </div>
-        </div>
+        
+       
+      </div>
     </nav>
 
     <!--sub nav-->
-    <section class="bg-primary text-white p-1 text-center" id="sub_nav">
-        <h4>Next batch Starts in 22  Days,Hurry !</h4>
-    </section>
+    <div class="bg-primary text-white p-1 text-center " id="sub_nav">
+      <h4>Next batch Starts in 22  <i class="fa-solid fa-hourglass-end fa-flip-horizontal"></i>  Days,Hurry !</h4>
+  </div>
 
     <!--Hero section-->
     <section id="Hero">
         <div class="row p-5 justify-content-center" >
-         <div class="col-5">
-        <h2 >Launch your career with our</h2>
-        <h2><b style="color:rgb(102, 102, 233)">Full Stack Developer</b><b> Courses</b></h2> 
+         <div class="col-7 text-center py-5">
+        <h1><big>Launch your career with our</big></h>
+        <h1><big style="color:rgb(102, 102, 233)">Full Stack Developer</big><big> Courses</big></h1> 
         <p class="p-0 m-0 text-body-tertiary">Curriculum design and taught by Alumni from  IIT's  &</p>      
         <p class="p-0 m-0 text-body-tertiary">Leading Tech Companies</p>
      </div>
         <!--Form-->
-        <div class="col-5">
+        
+        <div class="col-4 shadow border-light-subtle border rounded-5 " >
         <form >
-            <div>
-                <h1>Start Attending Live Classes for Free!</h1>
+            <div class="p-5">
+                <h2 class="text-center fs-3"><i>Start Attending Live</i> </h2>
+                <h2 class="text-center fs-3"><i>Classes for Free!</i></h1>
+                  <p class="text-center m-0 text-secondary">Live Lectures & Assignment  curated by</p>
+                  <p class="text-center p-0 text-secondary  ">Top Tech Professionalas</p>
             <div class="row mb-3 ">
-                <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                <label for="inputEmail3" class="col-sm-1 col-form-label"><i class="fa-regular fa-user"></i></label>
                 <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Samvrant samantaray">
                 </div>
             </div>
             <div class="row mb-3">
-                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <label for="inputPassword3" class="col-sm-1 col-form-label" ><i class="fa-solid fa-phone"></i></label>
                 <div class="col-sm-10">
-                    <input type="password" class="form-control" id="inputPassword3">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Phone Number ">
                 </div>
             </div>
-
-
             </div>
-            <button type="submit" class="btn btn-primary ">Apply Now For Free</button>
-            </div>
+            <div class="center">
+            <button type="submit" class="btn btn-primary m-0">Apply Now For Free</button>
+          </div> 
+            <p class="text-center text-secondary fs-6 m-0">By clicking  'Applying Now' ,You agree to our</p>
+            <p class="text-center text-primary">Terms & conditions</p>
+           
+          </div>
         </form>
+      
     </div>
     </div>
     </section>
@@ -102,28 +113,68 @@
     <!--course Detail-->
     <section id="detail"  >
         <div class="bg-info p-2 text-dark bg-opacity-10" id="eg1">
-            <h2 class="text-center pt-5">Learn Full-Stack Web Development</h2>
-            <h4 class="text-center">Our Courses</h4>
-            <div class="row">
-                <div class="col-5 border border-primary">
-                    <h2 class="text-center">Beginner</h2>
-                    <div class="col-6 mx-auto">
-                    <div class="d-inline  bg-info-subtle border round m-1 p-1">100% Job Guarantee</div>
+            <h5 class="text-center pt-5 text-primary text-opacity-75">Learn Full-Stack Web Development</h5>
+            <h4 class="text-center text-primary">Our Courses</h4>
+            <div class="row f-flex justify-content-center">
+                <div class="col-3 shadow border rounded-5 border-primary bg-white">
+                    <p class="text-center fs-3"><i>Beginner</i></p>
+                    
+                    <div class="f-flex justify-content-center ml-3 text-center">
+                    <div class="d-inline  bg-info-subtle border round m-1 p-1 ">100% Job Guarantee</div>
                     <div class="d-inline  bg-info-subtle border round p-1">Lifetime Access</div>
+                    
+                    <h6 class="text-center p-2">For you to start their coding journey from scratch</h6>
+                    <table class="table">
+                      <tbody>
+                        <tr>
+                          <th scope="row"><i class="fa-solid fa-briefcase"></i></th>
+                          <td>Placement Start</td>
+                          <td>in 4 MOnths</td>
+                         
+                        </tr>
+                        <tr>
+                          <th scope="row"><i class="fa-solid fa-graduation-cap"></i></th>
+                          <td>Elgibility</td>
+                          <td>Final year students or Graduate,All degrees</td>
+                          
+                        </tr>
+                        <tr>
+                          <th scope="row"><i class="fa-regular fa-clock"></i></th>
+                          <td>Duration</td>
+                          <td>12 Months</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"><i class="fa-solid fa-book"></i></th>
+                          <td>Daily Efforts</td>
+                          <td>5-7 hours</td>
+                        </tr>
+                        <tr>
+                          <th scope="row"><i class="fa-solid fa-forward-step"></i></th>
+                          <td>Next Batch On</td>
+                          <td>27th Dec 2022</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <div class="text-center pb-3">
+                    <button type="button" class="btn btn-outline-primary " disabled><i class="fa-solid fa-download"></i> Broucher</button>
+                    <button type="button" class="btn btn-primary">Learn More <i class="fa-solid fa-greater-than"></i></button>
+                    </div>
                 </div>
-                <h6 class="text-center">For you to start their coding journey from scratch</h6>
+                
                 </div>
-                <div clss="col-5"></div>
+                <div clss="col-3 border rounded">
+                  
+                </div>
             </div>
         </div>
     </section>
 
     <section>
         <div class="pt-5">
-        <h6 class="text-center">Over 300+ HIRING PARTNERS</h6>
-        <h2 class="text-center">Top Startups & MNC's Hire</h2>
-        <h3 class="text-center">Software Engineer</h3>
-        <p class="text-center">From Acciojob upto 41 Lakhs</p>
+        <p class="text-center text-primary fs-6 p-0 m-0">Over 300+ HIRING PARTNERS</p>
+        <h1 class="text-center"><i>Top Startups & MNC's Hire</i></h1>
+        <h3 class="text-center text-primary"><i>Software Engineer</i></h3>
+        <p class="text-center fs-6">From Acciojob upto 41 Lakhs</p>
         </div>
         
 <div class="container">
@@ -162,7 +213,7 @@
     <div class="col-md-4 offset-md-4">
       <!-- Button in the center -->
       <div class="center">
-        <button class="btn btn-primary">Placement Report ></button>
+        <button class="btn btn-primary">Placement Report <i class="fa-solid fa-greater-than"></i></button>
       </div>
     </div>
   </div>
@@ -182,26 +233,32 @@
                 <div class="card">
                   <img src="data:image/jpeg;base64,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" class=" rounded-img" alt="Student 1">
                   <div class="card-body ">
-                    <h5 class="card-title">John Doe</h5>
-                    <p class="card-text">"Great course! I learned a lot and the instructor was very knowledgeable."</p>
+                    <h4 class="card-title"><i>Virat Kohli</i></h4>
+                    <p>SDE-II at Indian cricket Board</p>
+                    <p class="card-text">"My life changing when i become a part of acciojob family.Before that i was not able to score  any centuries . As soon  as i joined accio, I heat a century against Afganistan."</p>
+                    <p>June 14,20222</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 mb-4">
                 <div class="card">
-                  <img src="student2.jpg" class="card-img-top rounded-img" alt="Student 2">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlBz4p-y0w5oZn00vwE7BiHQ9O7MjajSneKLZtEfHajGiLEkBh_DOkExe4bg&s" class="rounded-img" alt="Student 2">
                   <div class="card-body">
-                    <h5 class="card-title">Jane Smith</h5>
-                    <p class="card-text">"The course content was excellent and the assignments were challenging but rewarding."</p>
+                    <h4 class="card-title"><i>Ishan Kishan</i></h4>
+                    <p>Intern at Indian cricket Board</p>
+                    <p class="card-text">"My life changing when i become a part of acciojob family.Before that i was not able to score  any centuries . As soon  as i joined accio, I heat a century against Afganistan. My life changing when i become a part of acciojob family.Before that i was not able to score  any centuries . As soon  as i joined accio, I heat a century against Afganistan"</p>
+                    <p>June 14,2022</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 mb-4">
                 <div class="card">
-                  <img src="student3.jpg" class="card-img-top rounded-img" alt="Student 3">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBZ5P9nYfJ65Z9ATfJCU8PLMPvT0FZ2lU2CfBo7jaJKIL7uponX-gwNOvxbA&s" class=" rounded-img" alt="Student 3">
                   <div class="card-body">
-                    <h5 class="card-title">David Johnson</h5>
-                    <p class="card-text">"I highly recommend this course to anyone interested in learning more about the subject."</p>
+                    <h4 class="card-title"><i>Tilak Verma</i></h4>
+                    <p>Inter at Indian cricket Board</p>
+                    <p class="card-text">"My life changing when i become a part of acciojob family.Before that i was not able to score  any centuries . As soon  as i joined accio, I heat a century against Afganistan."</p>
+                    <p>June 14,2022</p>
                   </div>
                 </div>
               </div>
@@ -209,28 +266,34 @@
             <div class="row">
               <div class="col-md-4 mb-4">
                 <div class="card">
-                  <img src="student4.jpg" class="card-img-top rounded-img" alt="Student 4">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEBsKpE2qFQWhGPsoQqgRHjQXI6BizDfTuww8CJS_4Tg3GZ-mpPXTeu59LGA&s" class="rounded-img" alt="Student 4">
                   <div class="card-body">
-                    <h5 class="card-title">Emily Brown</h5>
-                    <p class="card-text">"I enjoyed the interactive sessions and found the course materials very helpful."</p>
+                    <h4 class="card-title"><i>Rohit Sharma</i></h4>
+                    <p>Team Lead at Indian cricket Board</p>
+                    <p class="card-text">"My life changing when i become a part of acciojob family.Before that i was not able to score  any centuries . As soon  as i joined accio, I heat a century against Afganistan."</p>
+                    <p>June 14,2022</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 mb-4">
                 <div class="card">
-                  <img src="student5.jpg" class="card-img-top rounded-img" alt="Student 5">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIhBu1oBLVjiOnFaZIHdO_O6dG48D7ql3a95cRmp02IBawuKsFti1klvgL4Q&s" class=" rounded-img" alt="Student 5">
                   <div class="card-body">
-                    <h5 class="card-title">Michael Wilson</h5>
-                    <p class="card-text">"The instructor's expertise in the subject matter made the learning experience enjoyable."</p>
+                    <h4 class="card-title"><i>Sarfaraj Ahmed</i></h4>
+                    <p>Wk at PAK cricket Board</p>
+                    <p class="card-text">"My life changing when i become a part of acciojob family.Before that i was not able to score  any centuries . As soon  as i joined accio, I heat a century against Afganistan."</p>
+                    <p>June 12,2022</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-4 mb-4">
                 <div class="card">
-                  <img src="student6.jpg" class="card-img-top rounded-img" alt="Student 6">
+                  <img src="data:image/jpeg;base64,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" class=" rounded-img" alt="Student 6">
                   <div class="card-body">
-                    <h5 class="card-title">Emma Johnson</h5>
-                    <p class="card-text">"The course exceeded my expectations. I would definitely recommend it to others."</p>
+                    <h4 class="card-title"><i>Sachin Tendulkar</i></h4>
+                    <p>God at Indian cricket Board</p>
+                    <p class="card-text">"My life changing when i become a part of acciojob family.Before that i was not able to score  any centuries . As soon  as i joined accio, I heat a century against Afganistan."</p>
+                    <p>June 14,2022</p>
                   </div>
                 </div>
               </div>
